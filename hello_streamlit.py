@@ -4,7 +4,7 @@ st.write('Hello world!')
 st.header('st.button') 
 
 if st.button('Say hello'): 
-    st.write('Why hello there') 
+    st.write('hey bro, 진무환') 
 else: 
     st.write('Goodbye')
 
@@ -12,14 +12,14 @@ st.header('st.slider')
 
 st.subheader('Slider')
 
-age = st.slider('당신의 나이는?', 0, 130, 25)
+age = st.slider('당신의 나이는?', 0, 130, 22)
 st.write("나는 ", age, '살입니다')
 
 st.header('st.selectbox')
 
 option = st.selectbox(
      '가장 좋아하는 색상은 무엇인가요?',
-     ('파랑', '빨강', '초록'))
+     ('보라', '빨강', '초록'))
 
 st.write('당신이 좋아하는 색상은 ', option)
 
@@ -46,4 +46,5 @@ a + ar + a r^2 + a r^3 + \cdots + a r^{n-1} =
 \sum_{k=0}^{n-1} ar^k =
 a \left(\frac{1-r^{n}}{1-r}\right)
 ''')
+
 
